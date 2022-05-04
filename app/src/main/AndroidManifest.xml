@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Asteroid">
         <activity
+            android:name=".login.SignUpUserInfoPage"
+            android:exported="false" />
+        <activity
             android:name=".login.SignUpStartNamePage"
             android:exported="false" />
         <activity

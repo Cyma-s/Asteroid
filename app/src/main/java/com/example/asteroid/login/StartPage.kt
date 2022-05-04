@@ -8,8 +8,8 @@ import androidx.databinding.DataBindingUtil
 import com.example.asteroid.R
 import com.example.asteroid.databinding.ActivityStartPageBinding
 
-private lateinit var binding: ActivityStartPageBinding
 class StartPage : AppCompatActivity(), View.OnClickListener {
+    private lateinit var binding: ActivityStartPageBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_start_page)
