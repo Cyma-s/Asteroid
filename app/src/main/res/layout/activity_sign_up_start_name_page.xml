@@ -30,25 +30,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="@drawable/circle_gradient"
-                android:backgroundTint="@color/basic_blue_color"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
+            <ImageView
                 android:id="@+id/change_color_button"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginTop="75dp"
                 android:background="@drawable/circle_gradient"
-                app:layout_constraintEnd_toEndOf="@+id/button2"
-                app:layout_constraintTop_toTopOf="@+id/button2" />
+                app:layout_constraintEnd_toEndOf="@+id/star_color"
+                app:layout_constraintTop_toTopOf="@+id/star_color" />
+
+            <ImageView
+                android:id="@+id/star_color"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circle_gradient"
+                android:backgroundTint="@color/basic_blue_color"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
