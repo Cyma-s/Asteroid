@@ -6,5 +6,127 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background_color">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/notosans_bold"
+            android:letterSpacing="0.1"
+            android:text="다시 돌아오신 걸 환영해요!"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/notosans_medium"
+            android:letterSpacing="0.1"
+            android:text="이메일"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:includeFontPadding="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/notosans_bold"
+            android:hint="이메일을 입력해주세요"
+            android:inputType="textEmailAddress"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.1"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textColorHint="#8cdedede"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_text" />
+
+        <TextView
+            android:id="@+id/password_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/notosans_medium"
+            android:letterSpacing="0.1"
+            android:text="비밀번호"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:includeFontPadding="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/notosans_bold"
+            android:hint="비밀번호를 입력해주세요"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            android:textColorHint="#8cdedede"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_text" />
+
+        <Button
+            android:id="@+id/asteroid_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="@font/notosans_bold"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.15"
+            android:text="Asteroid 로그인"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_edit_text" />
+
+        <TextView
+            android:id="@+id/password_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/notosans_medium"
+            android:letterSpacing="0.25"
+            android:text="비밀번호 찾기"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asteroid_login_button" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
