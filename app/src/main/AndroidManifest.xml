@@ -10,14 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Asteroid">
         <activity
+            android:name=".login.UserNamePage"
+            android:exported="false" />
+        <activity
+            android:name=".login.SignUpUserInfoPage"
+            android:exported="false" />
+        <activity
+            android:name=".login.SignUpStartNamePage"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".login.StartPage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
