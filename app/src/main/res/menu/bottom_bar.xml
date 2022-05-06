@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/comet_collection"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_book_line"
+        android:title="혜성 컬렉션"/>
+
+    <item
+        android:id="@+id/home_button"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="모아보기"/>
+
+    <item
+        android:id="@+id/user_info_button"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/ic_userpage"
+        android:title="내 정보"/>
+</menu>

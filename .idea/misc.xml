@@ -8,16 +8,24 @@
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/change_button_color.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/circle_gradient.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/edittext_normal.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/home_bottom_bar.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/ic_book_line.xml" value="0.127" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/ic_cloud.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/ic_userpage.xml" value="0.127" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/menu_selector_color.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/round_button.xml" value="0.1265" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/drawable/splash_drawable.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_login_page.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_sign_up_start_name_page.xml" value="0.1" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_sign_up_user_info_page.xml" value="0.264" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_start_page.xml" value="0.12751677852348994" />
         <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/layout/activity_user_name_page.xml" value="0.176" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/Asteroid/app/src/main/res/menu/bottom_bar.xml" value="0.1" />
       </map>
     </option>
   </component>
